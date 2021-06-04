@@ -40,3 +40,16 @@ export const Tags = styled.div`
 export const Tag = styled.span`
   ${tw`text-xs text-indigo-900 border border-pink-500 rounded-full px-2 py-1 mr-2`}
 `;
+
+export const Stack = styled.div`${tw`text-xs px-4 text-indigo-900`}`;
+
+export const ProjectIcon = styled.span`
+  ${tw`flex items-center justify-center w-10 h-10 border border-pink-500 rounded-full mb-2 px-1 mr-1`};
+`;
+
+export const RowFlex = styled.div`
+  ${tw`flex flex-row`};
+  a {
+   color: inherit;
+  }
+`

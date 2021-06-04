@@ -1,5 +1,5 @@
 ---
-category: 'Recent Projects'
+category: 'recent projects section'
 title: 'Recent Projects'
-subtitle: "Projects I've worked on"
+subtitle: "Recent projects I've worked on"
 ---
