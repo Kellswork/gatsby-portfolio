@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Copywrite'
-icon: 'edit'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+title: 'Full-Stack Development'
+icon: 'code-branch'
+description: 'I have experience building RestFul APIs with Node Js connecting with a database using Postgres'
 ---
