@@ -16,7 +16,6 @@ const IndexPage: React.FC = () => {
       <Services />
       <hr />
       <Projects/>
-      <Testimonials />
     </Layout>
   );
 };
