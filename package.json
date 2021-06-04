@@ -59,7 +59,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "/Users/Kells/Desktop/Gatsby-portfolio/.git/"
+    "url": "https://github.com/Kellswork/gatsby-portfolio.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
