@@ -1,7 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import Link from 'gatsby-link';
 import { motion } from 'framer-motion';
 import Icon from 'components/ui/Icon';
 
@@ -26,9 +25,6 @@ const Posts = () => {
           node {
             id
             html
-            fields {
-              slug
-            }
             frontmatter {
               title
               description
@@ -60,8 +56,7 @@ const Posts = () => {
         {posts.map((item) => {
           const {
             id,
-            fields: { slug },
-            frontmatter: { title, cover, description, tags, stack, website, github }
+            frontmatter: { title, cover, description, stack, website, github }
           } = item.node;
 
           return (
@@ -69,7 +64,7 @@ const Posts = () => {
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 1 }}>
                 <Styled.Card>
                   <Styled.Image>
-                    <Img fluid={cover.childImageSharp.fluid} alt={title} />
+                    <Img width='338' height='180.08px' fluid={cover.childImageSharp.fluid} alt={title} />
                   </Styled.Image>
                   <Styled.Content>
                     <Styled.Title>{title}</Styled.Title>

@@ -20,6 +20,7 @@ export const Content = styled.div`
 `;
 
 export const Image = styled.figure`
+  min-height: 180.83px;
   ${tw`w-full`};
 `;
 
