@@ -1,11 +1,13 @@
 ---
 category: 'experiences'
-company: 'Aizoon Reply'
-position: 'UI/UX Designer'
-startDate: 'Jan 2011'
-endDate: 'May 2013'
+company: 'Lambda School'
+position: 'Team Lead'
+startDate: 'Nov 2019'
+endDate: 'April 2020'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Organized tutorials for students struggling to understand the daily guided projects.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Utilized peer programming to improve students collaboration and communication. Reviewed students' code, providing feedback when needed.
+
+Resolved conflicts and maintained a calm, inclusive environment for all students.

@@ -1,9 +1,11 @@
 ---
 category: 'experiences'
-company: 'Facebook'
-position: 'Frontend Developer'
-startDate: 'May 2013'
-endDate: 'Jun 2015'
+company: 'Roava'
+position: 'Frontend Engineer'
+startDate: 'Sept 2020'
+endDate: 'Present'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Collaborating in a team of two to build an internal staff dashboard in an agile environment. 
+
+The dashboard will be used by staff to perform customer due diligence for making onboarding decisions on registered customers.

@@ -1,9 +1,11 @@
 ---
 category: 'experiences'
-company: 'Forge Inc'
-position: 'UI/UX Designer'
-startDate: 'Mar 2010'
-endDate: 'Dec 2010'
+company: 'Andela'
+position: 'Software Engineer'
+startDate: 'April 2019'
+endDate: 'Sept 2019'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Received specialised training in building applications using tools like PostgreSQL, Node js, React/Redux to create full-stack projects in a diverse team.
+
+Presented on final products to an audience of peers and supervisors, demonstrating features from a user perspective and justifying project decision
