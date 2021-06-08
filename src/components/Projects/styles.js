@@ -50,6 +50,6 @@ export const ProjectIcon = styled.span`
 export const RowFlex = styled.div`
   ${tw`flex flex-row`};
   a {
-   color: inherit;
+    ${tw`text-indigo-900 hover:text-indigo-600 mx-2`};
   }
 `

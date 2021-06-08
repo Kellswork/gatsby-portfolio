@@ -1,8 +1,9 @@
 ---
 category: 'newsletter section'
-title: 'Newsletter '
-subtitle: 'Subscribe to my mailing list'
-namePlaceholder: 'First Name'
+title: 'Contact Me'
+subtitle: "Let's work together, shoot me a message"
+namePlaceholder: 'Name'
 emailPlaceholder: 'Email'
-submitPlaceholder: 'Subscribe'
+textareaPlaceholder: 'Message'
+submitPlaceholder: 'Send'
 ---

@@ -16,6 +16,7 @@ const Newsletter = () => {
           subtitle
           namePlaceholder
           emailPlaceholder
+          textareaPlaceholder
           submitPlaceholder
         }
       }
@@ -31,6 +32,7 @@ const Newsletter = () => {
         <Styled.Form>
           <Styled.Input type="text" placeholder={newsletter.namePlaceholder} />
           <Styled.Input type="email" placeholder={newsletter.emailPlaceholder} />
+          <Styled.TextArea placeholder={newsletter.textareaPlaceholder}></Styled.TextArea>
           <Button primary block>
             {newsletter.submitPlaceholder}
           </Button>
