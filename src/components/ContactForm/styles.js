@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-export const Newsletter = styled.section`
+export const ContactForm = styled.section`
   ${tw`bg-gray-100 border-t border-indigo-100 mt-auto`};
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
   ${tw`flex flex-col items-center justify-center mx-auto mt-4 w-3/5`};
 `;
 

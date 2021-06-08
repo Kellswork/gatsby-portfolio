@@ -1,5 +1,5 @@
 ---
-category: 'newsletter section'
+category: 'contact-form section'
 title: 'Contact Me'
 subtitle: "Let's work together, shoot me a message"
 namePlaceholder: 'Name'
