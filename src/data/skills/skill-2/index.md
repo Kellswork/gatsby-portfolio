@@ -1,5 +1,4 @@
 ---
 category: 'skills'
-title: 'CSS'
-percentage: 73
+title: 'Node / Express Js'
 ---

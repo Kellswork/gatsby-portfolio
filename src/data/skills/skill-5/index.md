@@ -1,5 +1,4 @@
 ---
 category: 'skills'
-title: 'React'
-percentage: 74
+title: 'JavaScript ES6+'
 ---

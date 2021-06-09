@@ -1,5 +1,4 @@
 ---
 category: 'skills'
-title: 'Illustrator'
-percentage: 41
+title: 'Figma / UI Design'
 ---

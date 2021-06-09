@@ -33,7 +33,6 @@ const Posts = () => {
               title
               description
               date(formatString: "MMM DD, YYYY")
-              tags
               cover {
                 childImageSharp {
                   fluid(maxWidth: 800) {

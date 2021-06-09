@@ -28,7 +28,6 @@ const Posts = () => {
             frontmatter {
               title
               description
-              tags
               stack
               github
               website

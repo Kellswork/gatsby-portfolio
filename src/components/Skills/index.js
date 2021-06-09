@@ -22,7 +22,6 @@ const Skills = () => {
             id
             frontmatter {
               title
-              percentage
             }
           }
         }
@@ -40,12 +39,12 @@ const Skills = () => {
         {skills.map((item) => {
           const {
             id,
-            frontmatter: { title, percentage }
+            frontmatter: { title }
           } = item.node;
 
           return (
             <Styled.Skill key={id}>
-              <ProgressBar title={title} percentage={percentage} />
+              <ProgressBar title={title} />
             </Styled.Skill>
           );
         })}

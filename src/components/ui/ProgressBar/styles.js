@@ -15,13 +15,9 @@ export const Bar = styled.div`
 `;
 
 export const Content = styled.div`
-  ${tw`w-full flex justify-between`};
+  ${tw`w-full flex justify-center`};
 `;
 
 export const Title = styled.h3`
-  ${tw`font-semibold`};
-`;
-
-export const Percentage = styled.h3`
   ${tw`font-semibold`};
 `;

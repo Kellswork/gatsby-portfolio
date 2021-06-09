@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-personal-website-starter",
+  "name": "gatsby-portfolio",
   "private": true,
-  "description": "Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.",
+  "description": "Gatsby Markdown Personal Website, using Styled Components, Tailwindcss and Framer Motion.",
   "version": "0.1.0",
   "author": "Saimir Kapaj",
   "dependencies": {
