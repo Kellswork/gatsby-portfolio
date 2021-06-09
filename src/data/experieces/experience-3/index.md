@@ -6,6 +6,6 @@ startDate: 'Sept 2020'
 endDate: 'Present'
 ---
 
-Collaborating in a team of two to build an internal staff dashboard in an agile environment. 
+Collaborating in an agile team to build an internal staff dashboard. 
 
-The dashboard will be used by staff to perform customer due diligence for making onboarding decisions on registered customers.
+This dashboard will be used by staff to perform customer due diligence for making onboarding decisions on registered customers.
