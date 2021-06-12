@@ -1,5 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { useForm } from 'react-hook-form';
 
 import Container from 'components/ui/Container';
 import Button from 'components/ui/Button';
@@ -24,15 +25,36 @@ const ContactForm = () => {
   `);
 
   const contactForm = markdownRemark.frontmatter;
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data) => console.log(data);
 
   return (
     <Styled.ContactForm>
       <Container section>
         <TitleSection title={contactForm.title} subtitle={contactForm.subtitle} center />
-        <Styled.Form action="https://getform.io/f/a70c7cc2-fc41-44e5-8edc-ffe0a9ca505c" method="POST">
-          <Styled.Input type="text" name='name' placeholder={contactForm.namePlaceholder} autoComplete='off' />
-          <Styled.Input type="email" name='email' placeholder={contactForm.emailPlaceholder} />
-          <Styled.TextArea name='message' placeholder={contactForm.textareaPlaceholder}></Styled.TextArea>
+        <Styled.Form
+          onSubmit={handleSubmit(onSubmit)}
+          action="https://getform.io/f/a70c7cc2-fc41-44e5-8edc-ffe0a9ca505c"
+          method="POST"
+        >
+          <Styled.Input
+            type="text"
+            name="name"
+            placeholder={contactForm.namePlaceholder}
+            autoComplete="off"
+            {...register('name', { required: true, pattern: /^[A-Za-z]+$/i })}
+          />
+          <Styled.Input
+            type="email"
+            name="email"
+            placeholder={contactForm.emailPlaceholder}
+            {...register('email', { required: true, pattern: /^[A-Za-z]+$/i })}
+          />
+          <Styled.TextArea
+            name="message"
+            placeholder={contactForm.textareaPlaceholder}
+            {...register('email', { required: true })}
+          ></Styled.TextArea>
           <Button primary block>
             {contactForm.submitPlaceholder}
           </Button>

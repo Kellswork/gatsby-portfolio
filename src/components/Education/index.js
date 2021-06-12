@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 
 import Timeline from 'components/ui/Timeline';
 import Container from 'components/ui/Container';
@@ -41,7 +41,6 @@ const Education = () => {
   return (
     <Container section>
       <TitleSection title={sectionTitle.title} subtitle={sectionTitle.subtitle} />
-
       {education.map((item) => {
         const {
           id,
