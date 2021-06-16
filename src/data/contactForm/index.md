@@ -1,7 +1,7 @@
 ---
 category: 'contact-form section'
 title: 'Contact Me'
-subtitle: "Let's work together, shoot me a message"
+subtitle: "Let's work together, send me a message"
 namePlaceholder: 'Name'
 emailPlaceholder: 'Email'
 textareaPlaceholder: 'Message'

@@ -6,6 +6,7 @@ startDate: 'April 2019'
 endDate: 'Sept 2019'
 ---
 
-Received specialised training in building applications using tools like PostgreSQL, Node js, React/Redux to create full-stack projects in a diverse team.
+Built various applications using tools like PostgreSQL, Node js, React/Redux to create full-stack responsive projects  with a diverse team.
 
-Presented on final products to an audience of peers and supervisors, demonstrating features from a user perspective and justifying project decision
+Presented final products to peers and supervisors to demonstrate features and justify project decisions.
+
